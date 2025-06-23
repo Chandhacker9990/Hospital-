@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Welcome! Aapka Swagat Hai Chand Hacker Site Par</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: #0f0;
+    text-align: center;
+    padding: 30px;
+}
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    background: linear-gradient(90deg, red, green, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.mail {
+    font-size: 1.2em;
+    color: #0f0;
+    margin: 10px 0;
+}
+.note {
+    font-size: 1em;
+    color: #0f0;
+    margin: 10px 0;
+}
+.telegram {
+    font-size: 1em;
+    color: #0f0;
+    margin: 5px 0 30px 0;
+}
+form {
+    max-width: 400px;
+    margin: auto;
+    text-align: left;
+}
+label {
+    font-size: 1.1em;
+    color: #0f0;
+}
+input, textarea {
+    width: 100%; 
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #0f0;
+    background: #111;
+    color: #0f0;
+}
+button {
+    padding: 10px;
+    font-size: 1em;
+    background: linear-gradient(90deg, red, green, blue);
+    color: #000;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.9;
+}
+</style>
+</head>
+<body>
+<h1>Welcome! Aapka Swagat Hai Chand Hacker Site Par</h1>
+<div class="mail">Email: chandhackz65@gmail.com</div>
+<div class="note">
+    Aap koi bhi pareshani a rahi hai to yahan per apni pareshani ko likhkar share Karen.<br/>
+    Aapko 24–48 ghanton ke andar reply mil jaega. Form apply karke submit Karen. Dhanyvad ☠️
+</div>
+<div class="telegram">
+    Agar fir bhi reply na mile to direct humse Telegram per contact karo: <b>@Chand_hackz</b>
+</div>
+<form id="complaintForm" method="POST" action="https://AAPKISERVERURL.vercel.app/submit">
+    <label>Naam:</label><br/>
+    <input type="text" name="name" required /><br/>
+    <label>Email/Phone:</label><br/>
+    <input type="text" name="email" required /><br/>
+    <label>Complaint:</label><br/>
+    <textarea name="complaint" required></textarea><br/>
+    <button type="submit">Submit Complaint</button>
+</form>
+</body>
+</html>
